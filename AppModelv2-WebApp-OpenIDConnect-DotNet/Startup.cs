@@ -75,5 +75,6 @@ namespace AppModelv2_WebApp_OpenIDConnect_DotNet
             context.Response.Redirect("/?errormessage=" + context.Exception.Message);
             return Task.FromResult(0);
         }
+
     }
 }
